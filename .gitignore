@@ -1,0 +1,36 @@
+# -----------------------------------------------------------------------------
+# Python cache / build artefacts
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments / local tooling
+.venv/
+.env/
+.idea/
+.vscode/
+
+# Training artefacts and logs
+output/
+modifylog/
+log/
+tmp/
+
+# Datasets and large inputs (keep local only)
+dataset/
+
+# Generated scripts / checkpoints
+model/
+checkpoints/
+
+# Third-party build products
+thirdparty/**/__pycache__/
+thirdparty/**/build/
+thirdparty/**/dist/
+thirdparty/**/egg-info/
+
+# Miscellaneous helper scripts that should stay local
+check_cuda.py
+*.sh
+

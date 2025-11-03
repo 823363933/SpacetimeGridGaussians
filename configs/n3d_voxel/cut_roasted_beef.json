@@ -1,0 +1,17 @@
+{
+  "resolution": 2,
+  "model": "voxel_grid",
+  "preprocesspoints": 0,
+  "test_iteration": 30000,
+  "densify": 0,
+  "duration": 50,
+  "rdpip": "train_voxel_grid",
+  "data_device": "cpu",
+  "voxel_grid_resolution": 64,
+  "voxel_opacity_reg_start": 15000,
+  "voxel_opacity_reg_weight": 0.05,
+  "voxel_prune_start": 26000,
+  "voxel_prune_interval": 500,
+  "voxel_prune_threshold": 0.03,
+  "transform_device": "cpu"
+}
